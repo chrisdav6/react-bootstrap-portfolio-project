@@ -2,6 +2,8 @@
 
 :root {
   --primary-white: #fff;
+  --primary-dark: rgb(44, 44, 44);
+  --primary-light-grey: #f4f4f4;
   --primary-orange: #f9ab00;
   --primary-red: #ef4035;
   --lighter-red: #f33501;
@@ -27,3 +29,4 @@ body {
 @import './navbar';
 @import './header';
 @import './about';
+@import './services';
