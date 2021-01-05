@@ -1,0 +1,28 @@
+nav {
+  .logo {
+    height: 60px;
+  }
+
+  .menuIcon {
+    color: #fff;
+  }
+
+  .navbar-nav li a {
+    color: var(--primary-white) !important;
+    margin: 0 0.75rem;
+    border-top: 0.1875rem solid transparent !important;
+
+    &:hover {
+      border-top: 0.1875rem solid var(--primary-orange) !important;
+    }
+
+    &:active {
+      border-top: 0.1875rem solid var(--primary-orange) !important;
+    }
+
+    &:focus {
+      border-top: 0.1875rem solid var(--primary-orange) !important;
+    }
+
+  }
+}
