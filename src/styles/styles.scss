@@ -3,10 +3,13 @@
 :root {
   --primary-white: #fff;
   --primary-dark: rgb(44, 44, 44);
+  --primary-grey: #ccd1d9;
   --primary-light-grey: #f4f4f4;
+  --primary-dark-grey: #666;
   --primary-orange: #f9ab00;
   --primary-red: #ef4035;
   --lighter-red: #f33501;
+
 }
 
 body {
@@ -30,3 +33,4 @@ body {
 @import './header';
 @import './about';
 @import './services';
+@import './experience';
