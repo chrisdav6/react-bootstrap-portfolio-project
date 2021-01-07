@@ -1,0 +1,22 @@
+.myCarousel {
+  .content {
+    color: var(--primary-white);
+    background: transparent;
+    margin: 2rem auto 4rem auto;
+    width: 54%;
+
+    h3 {
+      color: var(--primary-orange);
+      font-weight: 600;
+    }
+
+    p {
+      color: var(--primary-grey);
+    }
+  }
+}
+
+.carousel .slide img {
+  width: 10rem;
+  margin-top: 2rem;
+}
